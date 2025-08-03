@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembagian Kelompok 03TPLP035 </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="glass-container">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fas fa-users"></i>
+                <h1>KELAS 03TPLP035</h1>
+            </div>
+            <p class="tagline">TEKNIK INFORMATIKA UNIVERSITAS PAMULANG</p>
+        </header>
+
+        <div class="control-panel">
+            <div class="control-card">
+    <div class="control-header">
+        <i class="fas fa-sliders-h"></i>
+        <h3>Pembagian Kelompok</h3>
+    </div>
+    <div class="control-body">
+        <div class="input-group">
+            <label for="groupCount"><i class="fas fa-layer-group"></i> Jumlah Kelompok</label>
+            <div class="input-with-icon">
+                <input type="number" id="groupCount" min="2" max="10" value="4">
+                <span class="input-icon"></span>
+            </div>
+        </div>
+        <button id="generateBtn" class="primary-btn">
+            <i class="fas fa-magic"></i> Buat Kelompok
+        </button>
+    </div>
+</div>
+
+            <div class="action-buttons">
+                <button id="exportPdfBtn" class="secondary-btn">
+                    <i class="fas fa-file-pdf"></i> Export PDF
+                </button>
+                <button id="resetBtn" class="danger-btn">
+                    <i class="fas fa-redo"></i> Reset
+                </button>
+            </div>
+        </div>
+
+        <div class="groups-container" id="groupsContainer">
+            <div class="empty-state">
+                <i class="fas fa-users-slash"></i>
+                <h3>Belum ada Grup yang Dihasilkan</h3>
+                <p>Atur pembagian di atas dan klik "Buat Kelompok" untuk melihat hasil</p>
+            </div>
+        </div>
+
+        <footer class="app-footer">
+            <p>© 2025 Teguh MF | 03TPLP035</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
