@@ -2,7 +2,8 @@
 
 Sebuah tool sederhana untuk mengacak nama menjadi kelompok secara adil. Dibangun dengan HTML, CSS, dan JavaScript.
 
-![Preview]("C:\Users\teguh\OneDrive\Gambar\Screenshots\Screenshot 2025-08-11 213555.png")
+# Preview 
+https://generator-1-0-ipei.vercel.app/
 
 # Fitur
 - Mengacak daftar nama menjadi beberapa kelompok
