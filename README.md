@@ -2,8 +2,7 @@
 
 Sebuah tool sederhana untuk mengacak nama menjadi kelompok secara adil. Dibangun dengan HTML, CSS, dan JavaScript.
 
-![Preview](<img width="769" height="810" alt="Screenshot 2025-08-11 213555" src="https://github.com/user-attachments/assets/b79b073f-3a36-46d3-aea3-1128dbf269f7" />
-)
+![Preview]("C:\Users\teguh\OneDrive\Gambar\Screenshots\Screenshot 2025-08-11 213555.png")
 
 # Fitur
 - Mengacak daftar nama menjadi beberapa kelompok
