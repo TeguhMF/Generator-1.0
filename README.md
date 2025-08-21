@@ -1,6 +1,6 @@
 # Generator-1.0
 
-Sebuah tool sederhana untuk mengacak nama menjadi kelompok secara adil. Dibangun dengan HTML, CSS, dan JavaScript.
+Sebuah web statis tool sederhana untuk mengacak nama menjadi kelompok secara adil. Dibangun dengan HTML, CSS, dan JavaScript.
 
 # Preview 
 https://generator-1-0-ipei.vercel.app/
